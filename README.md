@@ -6,8 +6,8 @@
 
 ## User Interface
 
-| Project  | Live Preview                    |
-| -------- | ------------------------------- |
-| Omnifood | <a href="" target="_blank"></a> |
+| Project  | Live Preview                                |
+| -------- | ------------------------------------------- |
+| Omnifood | <a href="" target="_blank">Live Preview</a> |
 
 </div>
