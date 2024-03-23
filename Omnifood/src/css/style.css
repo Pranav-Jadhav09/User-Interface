@@ -18,10 +18,16 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+/* HELPER */
+.margin-right-sm {
+  margin-right: 1.6rem;
+}
+
 /*********************************/
 /* GENERAL REUSEABLE COMPONENTS */
 /********************************/
 .container {
+  /* 1140 px */
   margin: 0 auto;
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -61,8 +67,8 @@ body {
 }
 
 .heading-primary {
-  line-height: 1.05;
   font-size: 5.2rem;
+  line-height: 1.05;
   margin-bottom: 3.2rem;
 }
 .heading-secondary {
@@ -70,7 +76,7 @@ body {
   font-size: 4.4rem;
   margin-bottom: 9.6rem;
 }
-.heading-primary {
+.heading-tertiary {
   line-height: 1.2;
   font-size: 3rem;
   margin-bottom: 3.2rem;
@@ -84,6 +90,43 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
   text-transform: uppercase;
+}
+
+/* Buttons */
+.btn,
+.btn:link,
+.btn:visited {
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 9px;
+  font-family: inherit;
+  transition: all 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  color: #fff;
+  background-color: #e67e22;
+}
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  color: #555;
+  background-color: #fff;
+}
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 /**************************/
@@ -167,6 +210,61 @@ body {
 }
 .sticky .section-hero {
   margin-top: 9.6rem;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+.section-hero {
+  padding: 4.8rem 0 9.6rem 0;
+  background-color: #fdf2e9;
+}
+.hero {
+  gap: 9.6rem;
+  display: grid;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 130rem;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.hero-img {
+  width: 100%;
+}
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+/* DELIVERED IMAGES */
+.delivered-meals {
+  gap: 1.6rem;
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+}
+.delivered-imgs {
+  display: flex;
+}
+.delivered-imgs img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+  margin: 0;
+}
+.delivered-text {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
 
 /**************************/
