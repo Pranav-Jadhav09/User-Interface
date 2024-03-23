@@ -1,5 +1,5 @@
 /**************************/
-/* GENERAL */
+/* RESET */
 /**************************/
 * {
   margin: 0;
@@ -18,6 +18,21 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+/*********************************/
+/* GENERAL REUSEABLE COMPONENTS */
+/********************************/
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
 /**************************/
 /* HEADER */
 /**************************/
@@ -34,9 +49,7 @@ body {
   justify-content: space-between;
 }
 
-/**************************/
 /* NAVIGATION LIST */
-/**************************/
 .main-nav-list {
   gap: 4.8rem;
   display: flex;
@@ -101,4 +114,72 @@ body {
 }
 .sticky .section-hero {
   margin-top: 9.6rem;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+.grid--footer {
+  grid-template-columns: repeat(2, 1.5fr) repeat(3, 1fr);
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+.footer-heading {
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.social-links {
+  gap: 2.4rem;
+  display: flex;
+  list-style: none;
+}
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.copyright {
+  color: #767676;
+  line-height: 1.6;
+  margin-top: auto;
+  font-size: 1.4rem;
+}
+
+.contacts {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-style: normal;
+}
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  gap: 2.4rem;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+.footer-link:link,
+.footer-link:visited {
+  color: #767676;
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
 }
