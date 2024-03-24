@@ -9,6 +9,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   color: #555;
@@ -205,6 +206,9 @@ strong {
   background-color: #fdf2e9;
   justify-content: space-between;
 }
+.header > a > img .logo {
+  text-decoration: none;
+}
 
 /* NAVIGATION LIST */
 .main-nav-list {
@@ -225,6 +229,7 @@ strong {
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #cf711f;
+  text-decoration: none;
 }
 
 /* CTA */
