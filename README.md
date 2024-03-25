@@ -16,9 +16,9 @@ This repository is your playground to explore and experiment with various UI fra
 
 <div align="center">
 
-| Websites | Screenshot              | Demo                                     | Code                   |
-| -------- | ----------------------- | ---------------------------------------- | ---------------------- |
-| Omnifood | ![thumbnail](./assets/) | [Live](https://tic-tac-toe-jrpranav.com) | [Repo](./Tic-Tac-Toe/) |
+| Websites | Screenshot                         | Demo                                                    | Code                |
+| -------- | ---------------------------------- | ------------------------------------------------------- | ------------------- |
+| Omnifood | ![thumbnail](./thumbnail/omnifood) | [Live](https://omnifood-website-jrpranav.onrender.com/) | [Repo](./Omnifood/) |
 
 </div>
 
